@@ -5,7 +5,7 @@
   "main": "lib/client.js",
   "files": [
     "lib",
-    "dist",
+    "dist"
   ],
   "scripts": {
     "test": "mocha -t 60000 -r thunk-mocha -r should test/*.test.js",
