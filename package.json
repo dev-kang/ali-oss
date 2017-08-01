@@ -14,13 +14,6 @@
     "build-dist": "node browser-build.js > dist/aliyun-oss-sdk.js && MINIFY=1 node browser-build.js > dist/aliyun-oss-sdk.min.js",
     "publish-to-cdn": "node publish.js"
   },
-  "git-pre-hooks": {
-    "pre-release": "npm run build-dist",
-    "post-release": [
-      "npm publish",
-      "npm run publish-to-cdn"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/aliyun/oss-nodejs-sdk.git"
