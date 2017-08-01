@@ -4,7 +4,8 @@
   "description": "aliyun oss(open storage service) node client",
   "main": "lib/client.js",
   "files": [
-    "lib"
+    "lib",
+    "dist",
   ],
   "scripts": {
     "test": "mocha -t 60000 -r thunk-mocha -r should test/*.test.js",
